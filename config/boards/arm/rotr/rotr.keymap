@@ -19,11 +19,13 @@
 			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
+		
 		one {
-    			//Spotify PREV | PLAY/PAUSE | NEXT
-    			bindings = <&kp LC(LA(LEFT)) &lt 4 LC(LA(SPACE)) &kp LC(LA(RIGHT))>;
-    			sensor-bindings = <&inc_dec_kp LC(LA(F13)) LC(LA(F14))>;
+  		  //Spotify PREV | PLAY/PAUSE | NEXT
+  		  bindings = <&kp C_PREV &lt 4 C_PP &kp C_NEXT>;
+  		  sensor-bindings = <&inc_dec_kp F13 F14>; 
 		};
+
 
 		two {
 			//Media PREV | PLAY/PAUSE | NEXT
